@@ -1,0 +1,105 @@
+body{
+    font-family: 'Noto Serif', serif;
+}
+header {
+    background: #EB6161;
+    padding: 80px;
+}
+.marca{
+    position:relative;
+    width: 940px;
+    margin: 0 auto;
+}
+.logo{
+    margin: 0 10px 0;
+    width: 30%;
+}
+nav {
+    position:absolute;
+        top:300px;
+        right: 10;
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+    
+    
+}
+
+nav a {
+    text-transform: uppercase;
+    color:hsl(48, 100%, 67%);
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    
+
+}
+nav a:hover{
+    color:#035766;
+    text-decoration: underline;
+
+}
+#foco{
+    background-color: #CBB0FF;
+    margin-top: auto;
+    padding-top: 10px;
+}
+
+.principal {
+    text-align: center;
+    padding: 20 20 20 0;
+	background:hsl(48, 100%, 67%);
+    width: 940px;
+	margin: 10px auto;
+    border: none;
+    border-radius: 5px;
+}
+.titulo-principal{
+    text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
+   
+    
+    
+}
+.larissa{
+   width: 400px;
+   padding: 10 0 10 0;
+   margin-left: 0;
+}
+#objetivo {
+    text-align: center;
+    padding: 3em 10px;
+	width: 940px;
+	margin: 0 auto;
+    border: none;
+    border-radius: 5px;
+    background-color: #EB6161;
+}
+.banner{
+    width: 50px;
+    margin-top: 10px;
+
+}
+footer{
+    text-align: center;
+    background-color: #CBB0FF;
+    padding: 10px 10px 20px 0;
+}
+
+@media screen and (max-width: 480px) {
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+}
